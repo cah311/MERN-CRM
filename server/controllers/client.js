@@ -51,8 +51,10 @@ export const getTransactions = async (req, res) => {
     const sortFormatted = Boolean(sort) ? generateSort() : {};
 
     const transactions = await Transaction.find({
-      $or: [{ cost: { $regex: new RegExp(search, "i") } }],
-      $or: [{ userId: { $regex: new RegExp(search, "i") } }],
+      $or: [
+        { cost: { $regex: new RegExp(search, "i") } },
+        { userId: { $regex: new RegExp(search, "i") } },
+      ],
     })
       .sort(sortFormatted)
       .skip(page * pageSize)
@@ -62,7 +64,7 @@ export const getTransactions = async (req, res) => {
       name: { $regex: search, $options: "i" },
     });
 
-    res.status(200).json(transactions, total);
+    res.status(200).json({ transactions, total });
   } catch (error) {
     res.status(404).json({ message: error.message });
   }
