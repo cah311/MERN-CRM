@@ -2,4 +2,4 @@ For frontend, we will be using Material UI, Material UI Data Grid, Nivo Charts, 
 
 # live site url:
 
-https://admin-frontend-qwgg.onrender.com/admin
+https://admin-frontend-qwgg.onrender.com
