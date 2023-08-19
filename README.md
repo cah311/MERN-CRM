@@ -1,4 +1,4 @@
-# Technoligies used in this project, we used:
+# Technoligies used in this project:
 
 - MERN stack
   - MongoDB
