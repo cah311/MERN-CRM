@@ -1,5 +1,23 @@
-For frontend, we will be using Material UI, Material UI Data Grid, Nivo Charts, Redux Toolkit and Redux Toolkit Query. For backend, we will be using Node JS, Express Js, Mongoose, and MongoDB
+# Technoligies used in this project, we used:
 
-# live site url:
+- MERN stack
+  - MongoDB
+  - ExpressJS
+  - React
+  - NodeJS
 
-https://admin-frontend-qwgg.onrender.com
+## Frontend
+
+- Material UI for styling
+- Material UI Data Grid for tables
+- Nivo for our Charts
+- Redux Toolkit for our state management
+- Redux Toolkit Query for API calls
+
+## Backend
+
+- Node JS as our runtime run
+- ExpressJs as our backend framework
+- Mongoose for managing our MongoDB
+
+### https://admin-frontend-qwgg.onrender.com
